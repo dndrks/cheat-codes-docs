@@ -1,7 +1,7 @@
 # Setup Instructions
 
 1. Clone repository to your computer.
-2. Using terminal, navigate to the `perfect-jekyll` directory with `cd`.
+2. Using terminal, navigate to the `cheat-codes-docs` directory with `cd`.
 3. In the directory type `bundle exec jekyll serve`.
 4. Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser.
 
