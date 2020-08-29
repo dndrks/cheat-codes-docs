@@ -1,0 +1,13 @@
+title: perfect-jekyll
+description: the perfect jekyll starting theme. xoxo northern information.
+baseurl: /
+url:
+permalink: pretty
+sort_by: year, month
+markdown: kramdown
+plugins:
+  - jekyll-feed
+include: ['_pages']
+collections_dir: collections
+collections:
+  - examples
