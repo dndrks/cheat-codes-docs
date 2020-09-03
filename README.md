@@ -2,7 +2,7 @@
 
 1. Clone repository to your computer.
 2. Using terminal, navigate to the `cheat-codes-docs` directory with `cd`.
-3. In the directory type `bundle exec jekyll serve`.
+3. In the directory type `bundle exec jekyll serve --baseurl ''`.
 4. Visit [http://127.0.0.1:4000](http://127.0.0.1:4000) in your browser.
 
 ## Adding Pages
