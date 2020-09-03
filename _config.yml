@@ -1,7 +1,7 @@
 title: cheat codes docs
 description: hi plz describe me kthxbai
 baseurl: /
-url:
+url: https://dndrks.github.io/cheat-codes-docs
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
