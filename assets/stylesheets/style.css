@@ -34,7 +34,7 @@ nav.header {
 
 nav.side ul {
   list-style: none;
-  margin: 10px;
+  margin: 0;
   padding: 0; }
 nav.side li.active a:before,
 nav.side li a:hover::before {
