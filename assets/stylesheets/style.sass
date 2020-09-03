@@ -1,24 +1,61 @@
-nav,
-main,
-footer
-  margin: 50px 100px 40px 100px
-  padding-bottom: 10px
-  border-bottom: 1px solid black
+$black: #303030
+$yellow: #fff448
+$green: #59ff00
+$blue: #0f3fe7
+$orange: #ffa532
+$pink: #fcaba4
 
-nav ul,
-#collection ul
-  margin: 0
-  padding: 0
 
-nav ul li
-  margin: 0
-  padding: 0
-  display: inline
+.sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif
 
-#collection > li
-  margin: 10px
-  padding: 40px
-  display: inline-block
-  border: 1px solid #000
-  width: 200px
-  list-style: none
+.monospace
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+
+body
+  color: $black
+
+a,
+a:link,
+a:visited
+  color: $blue
+
+a:hover,
+a:active
+  color: $orange
+
+img
+  max-width: 100%
+
+#cc
+  color: $blue
+  
+  &:hover,
+  &:active
+    color: $pink
+
+h3
+  color: $orange
+
+nav.header
+  background: $yellow
+
+  h1
+    display: inline-block
+
+nav.side
+  ul
+    list-style: none
+    margin: 10px
+    padding: 0
+
+  li.active a:before,
+  li a:hover::before
+    content: "["
+
+  li.active a:after,
+  li a:hover::after
+    content: "]"
+
+hr
+  border-top: 4px solid $pink

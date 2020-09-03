@@ -1,26 +1,49 @@
-nav,
-main,
-footer {
-  margin: 50px 100px 40px 100px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid black; }
+.sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; }
 
-nav ul,
-#collection ul {
-  margin: 0;
-  padding: 0; }
+.monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
-nav ul li {
-  margin: 0;
-  padding: 0;
-  display: inline; }
+body {
+  color: #303030; }
 
-#collection > li {
+a,
+a:link,
+a:visited {
+  color: #0f3fe7; }
+
+a:hover,
+a:active {
+  color: #ffa532; }
+
+img {
+  max-width: 100%; }
+
+#cc {
+  color: #0f3fe7; }
+  #cc:hover, #cc:active {
+    color: #fcaba4; }
+
+h3 {
+  color: #ffa532; }
+
+nav.header {
+  background: #fff448; }
+  nav.header h1 {
+    display: inline-block; }
+
+nav.side ul {
+  list-style: none;
   margin: 10px;
-  padding: 40px;
-  display: inline-block;
-  border: 1px solid #000;
-  width: 200px;
-  list-style: none; }
+  padding: 0; }
+nav.side li.active a:before,
+nav.side li a:hover::before {
+  content: "["; }
+nav.side li.active a:after,
+nav.side li a:hover::after {
+  content: "]"; }
+
+hr {
+  border-top: 4px solid #fcaba4; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,15 @@
-title: perfect-jekyll
-description: the perfect jekyll starting theme. xoxo northern information.
+title: cheat codes docs
+description: hi plz describe me kthxbai
 baseurl: /
 url:
 permalink: pretty
 sort_by: year, month
 markdown: kramdown
+kramdown:
+  parse_block_html: true
 plugins:
   - jekyll-feed
 include: ['_pages']
 collections_dir: collections
 collections:
-  - examples
+  - changelog
