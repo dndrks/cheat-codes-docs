@@ -1,0 +1,16 @@
+pages:
+
+- title: home
+  url: /
+
+- title: docs
+  url: /docs/
+
+- title: playthroughs
+  url: /playthroughs/
+
+- title: changelog
+  url: /changelog/
+
+- title: about
+  url: /about/

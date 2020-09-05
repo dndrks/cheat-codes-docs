@@ -38,10 +38,16 @@ nav.side ul {
   padding: 0; }
 nav.side li.active a:before,
 nav.side li a:hover::before {
-  content: "["; }
+  content: "[ "; }
 nav.side li.active a:after,
 nav.side li a:hover::after {
-  content: "]"; }
+  content: " ]"; }
+nav.side li.subdoc-1 {
+  margin-left: 10px; }
+nav.side li.subdoc-2 {
+  margin-left: 20px; }
+nav.side li.subdoc-3 {
+  margin-left: 30px; }
 
 hr {
   border-top: 4px solid #fcaba4; }

@@ -2,6 +2,12 @@
 <ul>
 {% for item in site.data.nav.pages %}
 <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
+  {% if item.title == "docs" %} 
+    {% assign subdocs = site.pages | where: "subdoc", true | sort: "order" %}
+    {% for sd in subdocs %}
+        <li class="subdoc subdoc-{{ sd.level }} {% if sd.url == page.url %} active{% endif %}"><a href="{{ site.baseurl }}{{ sd.url }}">{{ sd.title }}</a></li>
+    {% endfor %}
+  {% endif %}
 {% endfor %}
 <li class="{% if item.url == page.url %}active{% endif %}"><a href="https://l.llllllll.co/cheat-codes">llllllll</a></li>
 <li class="{% if item.url == page.url %}active{% endif %}"><a href="https://github.com/dndrks/cheat_codes2-beta">contribute</a></li>
