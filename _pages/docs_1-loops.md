@@ -37,7 +37,7 @@ navigate down to the Live loop lane and press `K3` to cycle between:
 - total length + feedback amount
 - mode (looping or 1-shot) + random record probability
 
-<img src="/assets/images/loops_live_params.gif" style="max-width:35%"/>
+<img src="cheat-codes-docs/assets/images/loops_live_params.gif" style="max-width:35%"/>
 
 *nb. the % counter on the second page indicates playhead position in relation to loop length*
 
