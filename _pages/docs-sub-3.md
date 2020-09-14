@@ -1,10 +1,9 @@
 ---
 layout: page
-title: sub 3
-permalink: /docs-sub-3/
+title: levels
+permalink: /docs-levels/
 subdoc: true
 order: 3
-level: 2
+level: 1
 ---
 
-<~~~ aye

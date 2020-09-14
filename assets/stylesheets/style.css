@@ -25,6 +25,8 @@ img {
     color: #fcaba4; }
 
 h3 {
+  font-size: 20px;
+  /* height: 20px; */
   color: #ffa532; }
 
 nav.header {
