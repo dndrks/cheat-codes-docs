@@ -37,7 +37,7 @@ navigate down to the Live loop lane and press `K3` to cycle between:
 - total length + feedback amount
 - mode (looping or 1-shot) + random record probability
 
-<img src="cheat-codes-docs/assets/images/loops_live_params.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_params.gif" style="max-width:35%"/>
 
 *nb. the % counter on the second page indicates playhead position in relation to loop length*
 
@@ -48,7 +48,7 @@ with the Live loop lane selected, hold `K1` and press `K3` to toggle recording t
 - if in *loop* mode, recording will engage wherever the playhead is located between the loop points
 - if in *once* mode, recording will begin at the loop start point
 
-<img src="/assets/images/loops_live_rec.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_rec.gif" style="max-width:35%"/>
 
 ### Live buffer loop points
 see `PARAMETERS > loops + buffers > rec loop enc resolution` to choose the resolution of an encoder turn.  
@@ -62,7 +62,7 @@ if `rec loop enc resolution` is at its default 0.1s, these additional actions ar
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="/assets/images/loops_rec_loop_enc.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_rec_loop_enc.gif" style="max-width:35%"/>
 
 ### change buffer
 
@@ -78,14 +78,14 @@ tap `K3` on any bank's loop lane to switch between these sets of control for the
 - rate + slew
 - buffer reference + semitone offset
 
-<img src="/assets/images/loops_param_jump.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_param_jump.gif" style="max-width:35%"/>
 
 ### loop a pad
 
 to get a pad looping without a grid or MIDI keyboard, hold `K1` and press `K3`.  
 the `L` on the right of the lane refelcts that the current pad is looping.
 
-<img src="/assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
 
 *nb. when you hold K1, you will see an asterisk next to the selected lane*
 
@@ -97,7 +97,7 @@ the `L` on the right of the lane refelcts that the current pad is looping.
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="/assets/images/loop_move_points.gif" style="max-width:35%"/>
+<img src="../assets/images/loop_move_points.gif" style="max-width:35%"/>
 
 ### rate + slew
 
@@ -123,7 +123,7 @@ each pad can be individually set to reference any of the three Live buffers or t
 - total length + feedback amount
 - mode (looping or 1-shot) + random record probability
 
-<img src="/assets/images/loops_live_params.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_params.gif" style="max-width:35%"/>
 
 *nb. the % counter on the second page indicates playhead position in relation to loop length*
 
@@ -131,7 +131,7 @@ each pad can be individually set to reference any of the three Live buffers or t
 - enables / disables looping on the selected bank's current pad
 - when you hold K1, you will see an asterisk next to the selected lane
 
-<img src="/assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
 
 *nb. the `L` on the right of the lane reflects that the current pad is looping*
 
@@ -140,7 +140,7 @@ each pad can be individually set to reference any of the three Live buffers or t
 - if in *loop* mode, recording will engage wherever the playhead is located between the loop points
 - if in *once* mode, recording will begin at the loop start point
 
-<img src="/assets/images/loops_live_rec.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_rec.gif" style="max-width:35%"/>
 
 # keys
 
@@ -152,14 +152,14 @@ cycle through different sets of controls for the focused loop lane
 - rate + slew
 - buffer reference + semitone offset
 
-<img src="/assets/images/loops_param_jump.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_param_jump.gif" style="max-width:35%"/>
 
 ### **`K3` Live buffer controls:**  
 - loop points
 - total length + feedback amount
 - mode (looping or 1-shot) + random record probability
 
-<img src="/assets/images/loops_live_params.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_params.gif" style="max-width:35%"/>
 
 *nb. the % counter on the second page indicates playhead position in relation to loop length*
 
@@ -167,7 +167,7 @@ cycle through different sets of controls for the focused loop lane
 - enables / disables looping on the selected bank's current pad
 - when you hold K1, you will see an asterisk next to the selected lane
 
-<img src="/assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
 
 *nb. the `L` on the right of the lane reflects that the current pad is looping*
 
@@ -176,7 +176,7 @@ cycle through different sets of controls for the focused loop lane
 - if in *loop* mode, recording will engage wherever the playhead is located between the loop points
 - if in *once* mode, recording will begin at the loop start point
 
-<img src="/assets/images/loops_live_rec.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_rec.gif" style="max-width:35%"/>
 
 ## **`encoders`**
 encoder functions depend on the current control set
@@ -188,7 +188,7 @@ encoder functions depend on the current control set
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="/assets/images/loop_move_points.gif" style="max-width:35%"/>
+<img src="../assets/images/loop_move_points.gif" style="max-width:35%"/>
 
 ### **change pad**
 
@@ -204,7 +204,7 @@ if `rec loop enc resolution` is at its default 0.1s, these additional actions ar
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="/assets/images/loops_rec_loop_enc.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_rec_loop_enc.gif" style="max-width:35%"/>
 
 ### **change buffer**
 
