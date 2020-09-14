@@ -19,7 +19,7 @@ there are four loop lanes on the `[loops]` page; one for each bank and one for t
 
 `E1` changes focus between them:
 
-<img src="/assets/images/loops_page_nav.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_page_nav.gif" style="max-width:35%"/>
 
 *nb. the `s:`tart and `e:`nd times in the top right corner reflect the loop points for the selected lane*
 
@@ -29,7 +29,7 @@ there are four loop lanes on the `[loops]` page; one for each bank and one for t
 
 cheat codes has three Live buffers to record into, which can be customized in a number of ways.
 
-### Live buffer control sets
+### Live buffer controls
 
 navigate down to the Live loop lane and press `K3` to cycle between:
 
@@ -66,7 +66,11 @@ if `rec loop enc resolution` is at its default 0.1s, these additional actions ar
 
 ### change buffer
 
-### pad control sets
+## what about pre-recorded samples?
+
+in the `PARAMS`, navigate to 
+
+### pad controls
 
 tap `K3` on any bank's loop lane to switch between these sets of control for the current pad:
 
