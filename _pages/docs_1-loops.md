@@ -19,7 +19,7 @@ there are four loop lanes on the `[loops]` page; one for each bank and one for t
 
 `E1` changes focus between them:
 
-<img src="../assets/images/loops_page_nav.gif" style="max-width:35%"/>
+<img src="cheat-codes-docs/assets/images/loops_page_nav.gif" style="max-width:35%"/>
 
 *nb. the `s:`tart and `e:`nd times in the top right corner reflect the loop points for the selected lane*
 
