@@ -18,22 +18,24 @@ the `[loops]` page is where you define these settings.
 - [banks + pads](#banks_and_pads)
 
 # navigation
-
+---
 <!-- ## `E1` -->
 
 there are four loop lanes on the `[loops]` page; one for each bank and one for the Live buffers.  
 
 `E1` changes focus between them:
 
-<img src="../assets/images/loops_page_nav.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_page_nav.gif" class="mw-35" />
 
 *nb. the `s:`tart and `e:`nd times in the top right corner reflect the loop points for the selected lane*
 
 <h2 id = "live">Live buffers</h2>
+---
 
 cheat codes has three Live buffers to record into, which can be adjusted many ways.
 
 <h3 id = "live-buffer-controls">controlling the Live buffer</h3>
+---
 
 navigate down to the Live loop lane and press `K3` to cycle between:
 
@@ -41,20 +43,22 @@ navigate down to the Live loop lane and press `K3` to cycle between:
 - total length + feedback amount
 - mode (looping or 1-shot) + random record probability
 
-<img src="../assets/images/loops_live_params.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_params.gif" class="mw-35"/>
 
 *nb. the % counter on the second page indicates playhead position in relation to loop length*
 
 ### recording into the Live buffer
+---
 
 with the Live loop lane selected, hold `K1` and press `K3` to toggle recording to the Live buffer on/off.
 
 - if in *loop* mode, recording will engage wherever the playhead is located between the loop points
 - if in *once* mode, recording will begin at the loop start point
 
-<img src="../assets/images/loops_live_rec.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_live_rec.gif" class="mw-35"/>
 
 ### Live buffer loop points
+---
 
 the default view of the Live loop lane is its loop points.
 
@@ -69,9 +73,10 @@ if `rec loop enc resolution` is at its default 0.1s, these additional actions ar
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="../assets/images/loops_rec_loop_enc.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_rec_loop_enc.gif" class="mw-35"/>
 
 ### random recording probability
+---
 
 with the Live loop lane selected, press `K3` until you see `mode` and `rnd prob`.  
 here, you can adjust the likelihood that recording state will be toggled by a random counter.  
@@ -81,6 +86,7 @@ here, you can adjust the likelihood that recording state will be toggled by a ra
 - if in *once* mode and `rec loop enc resolution` is a clock-synced value, a recording state coin will be tossed once every loop
 
 ### switch Live buffer + change Live buffer length
+---
 
 cheat codes has three Live buffers, which can record up to 32 seconds each.
 
@@ -90,6 +96,7 @@ with the Live loop lane selected, press `K3` until you see `total`.
 - `K1 hold` + `E1`: switch between the three Live buffers (L1, L2, L3)
 
 <h2 id = "clips">Clips</h2>
+---
 
 in addition to live sampling, cheat codes also has three Clip buffers for pre-recorded audio.  
 to load a Clip, navigate to `PARAMS > loops + buffers > clips`.  
@@ -97,6 +104,7 @@ the Clip buffers dynamically resize to fit samples as short as a few hundred mil
 *nb. files must be 48khz .wav files to retain original pitch and they are imported as mono.*
 
 <h2 id = "banks_and_pads">banks + pads</h2>
+---
 
 tap `K3` on any bank's loop lane to switch between these sets of control for the current pad:
 
@@ -104,18 +112,20 @@ tap `K3` on any bank's loop lane to switch between these sets of control for the
 - rate + slew
 - buffer reference + semitone offset
 
-<img src="../assets/images/loops_param_jump.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_param_jump.gif" class="mw-35"/>
 
 ### loop a pad
+---
 
 to get a pad looping without a grid or MIDI keyboard, hold `K1` and press `K3`.  
 the `L` on the right of the lane refelcts that the current pad is looping.
 
-<img src="../assets/images/loops_toggle_loop.gif" style="max-width:35%"/>
+<img src="../assets/images/loops_toggle_loop.gif" class="mw-35"/>
 
 *nb. when you hold K1, you will see an asterisk next to the selected lane*
 
 ### loop points
+---
 
 when a bank's controls are set to loop points:
 
@@ -125,11 +135,12 @@ when a bank's controls are set to loop points:
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
-<img src="../assets/images/loop_move_points.gif" style="max-width:35%"/>
+<img src="../assets/images/loop_move_points.gif" class="mw-35"/>
 
 *nb. you can also map this to a MIDI controller under `PARAMS > manual control params > start point [x]` and `... end point [x]`*
 
 ### rate + slew
+---
 
 *rate* adjusts the speed and direction of pad playback.  
 *slew* defines how many seconds it will take to get to the specified rate (if previous rate is different).
@@ -144,6 +155,7 @@ when a bank's controls are set to loop points:
 NEED GIF
 
 ### buffer reference + semitone offset
+---
 
 *Live: x* / *Clip: x* defines which buffer the pad is using.  
 *offset* adds a semitone offset to the pad's rate.  
@@ -158,6 +170,7 @@ NEED GIF
 *nb. when changing between each buffer, pad loops are resized according to the total length of the buffer*
 
 ### change pad
+---
 
 with any of the bank lanes selected (and controlling any parameter except for loops):
 
@@ -166,6 +179,7 @@ with any of the bank lanes selected (and controlling any parameter except for lo
 *nb. you can also map this to a MIDI controller under `PARAMS > manual control params > current pad [x]`*
 
 ### sync clock to loop
+---
 
 while exploring loop points, you may find a nice section that you'd want to base your whole session around.  
 

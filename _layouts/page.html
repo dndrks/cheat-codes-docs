@@ -2,6 +2,7 @@
 layout: default
 ---
 {%- if page.title -%}
-<h2>{{ page.title | escape }}</h2>
+<h1 class="cheat-page-title">{{ page.title | escape }}</h1>
+<hr class="cheat-page-hr">
 {%- endif -%}
 {{ content }}
