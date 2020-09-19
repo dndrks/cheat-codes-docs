@@ -10,24 +10,24 @@ level: 1
 cheat codes features three banks (a, b, c) of 16 pads (a1-a16, etc).  
 cheat codes also features three Live buffers and three pre-recorded Clip buffers.  
 each pad can have its own *totally unique* settings for loop points, speed + direction, buffer, etc.  
-the `[loops]` page is where you define these settings.
+the **[loops]** page is where you define these settings.
 
 - [navigation](#navigation)
 - [the Live buffers](#live)
 - [the Clip buffers](#clips)
 - [banks + pads](#banks_and_pads)
 
-# navigation
+## navigation
 ---
 <!-- ## `E1` -->
 
-there are four loop lanes on the `[loops]` page; one for each bank and one for the Live buffers.  
+there are four loop lanes on the **[loops]** page; one for each bank and one for the Live buffers.  
 
 `E1` changes focus between them:
 
 <img src="../assets/images/loops_page_nav.gif" class="mw-35" />
 
-*nb. the `s:`tart and `e:`nd times in the top right corner reflect the loop points for the selected lane*
+*nb. the **s:**tart and **e:**nd times in the top right corner reflect the loop points for the selected lane*
 
 <h2 id = "live">Live buffers</h2>
 ---
@@ -62,14 +62,14 @@ with the Live loop lane selected, hold `K1` and press `K3` to toggle recording t
 
 the default view of the Live loop lane is its loop points.
 
-see `PARAMETERS > loops + buffers > rec loop enc resolution` to choose the resolution of an encoder turn.  
+see **PARAMETERS > loops + buffers > rec loop enc resolution** to choose the resolution of an encoder turn.  
 0.1s and 0.01s are absolute time scales, while (1/16, 1/8, 1/4, 1/2, 1 bar) are derived from the current bpm.  
 *nb. when switching resolutions, the Live buffer loop window will snap to one unit of the specified resolution.*
-- `E2`: move start point (based on `rec loop enc resolution`)
-- `E3`: move end points (based on `rec loop enc resolution`)
+- `E2`: move start point (based on **rec loop enc resolution**)
+- `E3`: move end points (based on **rec loop enc resolution**)
 - `K1 hold` + `E1`: jump loop points together (uniformly distributed, if possible)
 
-if `rec loop enc resolution` is at its default 0.1s, these additional actions are available:
+if **rec loop enc resolution** is at its default 0.1s, these additional actions are available:
 - `K1 hold` + `E2`: move start point (fine,0.01s)
 - `K1 hold` + `E3`: move end point (fine,0.01s)
 
@@ -78,19 +78,19 @@ if `rec loop enc resolution` is at its default 0.1s, these additional actions ar
 ### random recording probability
 ---
 
-with the Live loop lane selected, press `K3` until you see `mode` and `rnd prob`.  
+with the Live loop lane selected, press `K3` until you see **mode** and **rnd prob**.  
 here, you can adjust the likelihood that recording state will be toggled by a random counter.  
 
 - if in *loop* mode, a recording state coin will be tossed every 4 beats
-- if in *once* mode and `rec loop enc resolution` is 0.1s or 0.01s, a recording state coin will be tossed every 1/16th note
-- if in *once* mode and `rec loop enc resolution` is a clock-synced value, a recording state coin will be tossed once every loop
+- if in *once* mode and **rec loop enc resolution** is 0.1s or 0.01s, a recording state coin will be tossed every 1/16th note
+- if in *once* mode and **rec loop enc resolution** is a clock-synced value, a recording state coin will be tossed once every loop
 
 ### switch Live buffer + change Live buffer length
 ---
 
 cheat codes has three Live buffers, which can record up to 32 seconds each.
 
-with the Live loop lane selected, press `K3` until you see `total`.
+with the Live loop lane selected, press `K3` until you see **total**.
 
 - `E2`: change the total length of each Live buffer to 8, 16 or 32 seconds
 - `K1 hold` + `E1`: switch between the three Live buffers (L1, L2, L3)
@@ -99,7 +99,7 @@ with the Live loop lane selected, press `K3` until you see `total`.
 ---
 
 in addition to live sampling, cheat codes also has three Clip buffers for pre-recorded audio.  
-to load a Clip, navigate to `PARAMS > loops + buffers > clips`.  
+to load a Clip, navigate to **PARAMS > loops + buffers > clips**.  
 the Clip buffers dynamically resize to fit samples as short as a few hundred milliseconds to 32 seconds.  
 *nb. files must be 48khz .wav files to retain original pitch and they are imported as mono.*
 
@@ -118,7 +118,7 @@ tap `K3` on any bank's loop lane to switch between these sets of control for the
 ---
 
 to get a pad looping without a grid or MIDI keyboard, hold `K1` and press `K3`.  
-the `L` on the right of the lane refelcts that the current pad is looping.
+the **L** on the right of the lane refelcts that the current pad is looping.
 
 <img src="../assets/images/loops_toggle_loop.gif" class="mw-35"/>
 
@@ -137,7 +137,7 @@ when a bank's controls are set to loop points:
 
 <img src="../assets/images/loop_move_points.gif" class="mw-35"/>
 
-*nb. you can also map this to a MIDI controller under `PARAMS > manual control params > start point [x]` and `... end point [x]`*
+*nb. you can also map this to a MIDI controller under **PARAMS > manual control params > start point [x]** and **... end point [x]***
 
 ### rate + slew
 ---
@@ -150,7 +150,7 @@ when a bank's controls are set to loop points:
 - `K1 hold` + `E2`: change rate for *all* pads to the value of the current pad
 - `K1 hold` + `E3`: change slew for *all* pads to the value of the current pad
 
-*nb. you can also map this to a MIDI controller under `PARAMS > manual control params > rate [x]` and `... rate slew time [x]`*
+*nb. you can also map this to a MIDI controller under **PARAMS > manual control params > rate [x]** and **... rate slew time [x]***
 
 NEED GIF
 
@@ -176,7 +176,7 @@ with any of the bank lanes selected (and controlling any parameter except for lo
 
 - `K1 hold` + `E1`: change selected bank's current pad
 
-*nb. you can also map this to a MIDI controller under `PARAMS > manual control params > current pad [x]`*
+*nb. you can also map this to a MIDI controller under **PARAMS > manual control params > current pad [x]***
 
 ### sync clock to loop
 ---

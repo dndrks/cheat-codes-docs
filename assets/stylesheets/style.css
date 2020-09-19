@@ -22,7 +22,13 @@ img {
 .cheat-content h1.cheat-page-title {
   color: #303030;
   margin-top: 0; }
-.cheat-content h1, .cheat-content h2, .cheat-content h3, .cheat-content h4 {
+.cheat-content h1, .cheat-content h4 {
+  color: #ffa532;
+  margin-top: 25px; }
+.cheat-content h2 {
+  color: #303030;
+  margin-top: 25px; }
+.cheat-content h3 {
   color: #ffa532;
   margin-top: 25px; }
 .cheat-content hr.cheat-page-hr {
