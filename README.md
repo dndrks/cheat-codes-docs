@@ -22,7 +22,3 @@ This is where you configure the page title and permalink. They can be anything y
 ## Navigation
 
 Configure main navigation with `_data/nav.yml`.
-
-## CSS
-
-To work with the CSS: `cd assets/stylesheets` and run `sass --watch style.sass:style.css`.
