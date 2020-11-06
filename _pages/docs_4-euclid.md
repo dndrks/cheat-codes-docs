@@ -3,7 +3,7 @@ layout: page
 title: euclid
 permalink: /docs-euclid/
 subdoc: true
-order: 12
+order: 20
 level: 1
 ---
 
