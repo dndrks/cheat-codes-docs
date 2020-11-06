@@ -3,7 +3,7 @@ layout: page
 title: euclid
 permalink: /docs-euclid/
 subdoc: true
-order: 4
+order: 12
 level: 1
 ---
 
@@ -38,12 +38,12 @@ as k changes, the pulses will be distributed across n's total as evenly as possi
 
 holding `K1` when **(k,n)** is selected allows you to change the default mode and rate of each euclidean sequencer.
 
-**modes**
+**modes (`E2`)**
 
 - **single** (default): each pulse will re-trigger the currently selected pad
 - **span**: each pulse will trigger the pad that corresponds to the pulse's position on screen
 
-**rate**
+**rate (`E3`)**
 
 - you can specify the rate of each sequencer, from 1/16th notes to whole notes.
 
@@ -52,8 +52,8 @@ holding `K1` when **(k,n)** is selected allows you to change the default mode an
 
 rotation and offset are two additional parameters which can add variety to your euclidean sequences.
 
-- **r**: rotate the pattern pulses
-- **+/-**: offset the pad played on the corresponding pulse
+- **r (`E2`)**: rotate the pattern pulses
+- **+/- (`E3`)**: offset the pad played on the corresponding pulse
 
 adjusting these two parameters have definite impact regardless of mode, as they adjust the rhythm and sound that's played, but they're particularly effective with **span** mode.
 
