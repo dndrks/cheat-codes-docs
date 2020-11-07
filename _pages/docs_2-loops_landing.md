@@ -11,7 +11,7 @@ cheat codes features three banks (a, b, c) of 16 pads (a1-a16, etc), three Live 
 each pad can have its own *totally unique* settings for loop points, speed + direction, buffer, etc.  
 the **[loops]** page is where you define these settings.
 
-<img src="../assets/images/loops_1Landing-hd.png" class="mw-60" />
+<img src="../assets/images/loops_1landing-hd.png" class="mw-60" />
 
 ## navigation + control
 ---
