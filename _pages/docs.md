@@ -4,5 +4,4 @@ title: docs
 permalink: /docs/
 ---
 
-<~~~ should there be a tree of different levels?
-
+<img src="../assets/images/docs-home.png" class="mw-60" />
